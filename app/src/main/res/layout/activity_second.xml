@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/blue_1"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/txtV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Second Activity!"
+        android:textSize="36sp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <RadioButton
+            android:id="@+id/radioBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ты правда хочешь перейти на 3 активити?"
+            android:checked="false"/>
+        <RadioButton
+            android:id="@+id/radioBtn2"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ты намерен вернуться в МэйнАктивити?"/>
+
+    </RadioGroup>
+
+</LinearLayout>

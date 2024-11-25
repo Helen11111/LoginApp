@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LogApp</string>
+    <string name="second_text">Second Text</string>
+    <string name="next">ПЕРЕХОД</string>
+</resources>
