@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         txtV2.setOnClickListener(this);
         btn.setOnClickListener(this);
 
+        String str = getIntent().getStringExtra("user");
+
+        txtV1.setText(str);
+
     }
 
     @Override
